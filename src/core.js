@@ -12,6 +12,13 @@
      *   .scrawl-loader
      *
      * options:
+     *   targetContainer: '.endless-scroll'
+     *   next: '.next'
+     *   pixelsFromBottom: 40
+     *   itemContainer: '.post'
+     *   pageParam: 'postpage'
+     *   delay: 400
+     *   useContainer: true
      *
      */
     $.fn.scrawl = function (customOptions) {
