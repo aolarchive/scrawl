@@ -26,7 +26,7 @@
         var defaultOptions = {
             targetContainer: '.endless-scroll',
             next: '.next',
-            pixelsFromBottom: 40,            
+            pixelsFromBottom: 40,
             itemContainer: '.post',
             pageParam: 'postpage',
             delay: 400,
