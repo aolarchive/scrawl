@@ -3,7 +3,7 @@
   "payload": "core",
   "description": "Crawl jQuery Plugin",
   "author": "Scott Sayles <ssayles@teamaol.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-contrib-compass": "~0.1.3",
