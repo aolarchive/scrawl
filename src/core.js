@@ -32,7 +32,7 @@
             useContainer: true
         };
 
-        $(this).each(function (index, element) {
+        return $(this).each(function (index, element) {
             var methods = {
                 log: function (msg) {
                     if (console && typeof console.log === 'function') {
