@@ -141,7 +141,11 @@
                 getNext: function ($container) {
                     // <next> can be in a different position b/c list-post and parsexml work differently! :-(
                     var $next = $container.find(options.next);
-                    $next = $next.length ? $next : $container.siblings().find(options.next);
+                    if (!$next.length) {
+                        if (!$container.is('.tag-tab-body')) {
+                            $next = $container.siblings().find(options.next);
+                        }
+                    }
                     return $next;
                 },
                 getNextPage: function ($next) {
